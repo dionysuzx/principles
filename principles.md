@@ -10,4 +10,4 @@
 - Build backpressure into the system. Use compilers, linters, formatters, and tests to guide code quality so engineers can focus on domain logic and tradeoffs.
 
 # Review principles
-Review by first inferring the author intent. Does the PR achieve what the author intends, or may it behave in a way they're not expecting or desiring, or perhaps haven't considered? Only list blocking issues.
+Infer the author's intent. Does the PR behave in a way they're not expecting? List blocking issues.
