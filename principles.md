@@ -1,5 +1,5 @@
 # Coding principles
-- Prefer simple code over easy code. Easy code is fast to write; simple code is untangled. Often the simpler design takes more upfront thought, friction, or lines. Minimize complexity, not line count.
+- Prefer simple code over easy code. Easy code is fast to write; simple code is untangled. The simpler design often takes more upfront effort. Minimize complexity, not line count.
 - Optimize for local reasoning. A future engineer should be able to understand the behavior by reading the domain boundary, type signature, and tests, not by chasing mutable state across the repo.
 - Model domains by the concept they represent, not around generic buckets like `types` or `utils`.
 - Prefer functional cores with imperative shells. Put business logic in pure, deterministic transformations when practical. Keep time, storage, network, mutation, and other side effects at the edges.
