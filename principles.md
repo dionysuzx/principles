@@ -6,7 +6,7 @@
 - Use records, smart constructors, and explicit transitions. Parse raw inputs into valid domain values, then transform those values with functions that return new state. Avoid hidden mutable state as a default.
 - Let types carry intent. Use strong type boundaries to make invalid states hard or impossible to represent, so the compiler enforces rules engineers would otherwise have to remember.
 - Test behavior, not implementation. Unit tests should encode intent: arrange inputs, run the behavior, assert the result. Focus on boundaries, invariants, and meaningful state, not internal steps.
-- Mock only at true edges. Prefer real modules, fakes, fixtures, and runnable systems over mocks of your own code. If the test doubles your implementation, it can preserve the same misunderstanding.
+- Mock only at edges. Prefer real modules, fakes, fixtures, and runnable systems over mocks of your own code. If the test doubles your implementation, it can preserve the same misunderstanding.
 - Build backpressure into the system. Use compilers, linters, formatters, and tests to guide code quality so engineers can focus on domain logic and tradeoffs.
 
 # Review principles
